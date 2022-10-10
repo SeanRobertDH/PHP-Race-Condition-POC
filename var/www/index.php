@@ -17,7 +17,7 @@ try {
     <option value="A">A</option>
     <option value="B">B</option>
     </select><br>
-    Transfer To: <select name="to_card_id">
+    Transfer to: <select name="to_card_id">
     <option value="A">A</option>
     <option value="B">B</option>
     </select><br>
