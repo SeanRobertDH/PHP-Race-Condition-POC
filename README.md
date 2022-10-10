@@ -3,7 +3,7 @@ This repo contains a PHP Race Condition POC that simulates a vulnerability seen 
 
 # Prerequisites:
 1. install [Docker](https://docs.docker.com/get-docker/).
-2. Ensure that you're running the docker container in a multi-cpu or multi-threaded enviroment (docker should use all available resources be default).
+2. Ensure that you're running the docker container in a multi-cpu or multi-threaded enviroment (Docker uses all available resources by default).
 
 # Setup:
 **Note*** May not work on M1 Mac or other ARM-based OSes. If you find a solution, please feel free to submit a PR!
