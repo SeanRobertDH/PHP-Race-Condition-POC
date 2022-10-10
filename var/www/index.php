@@ -11,7 +11,7 @@ try {
 
     echo "<html><body>";
 
-    echo '<img src="logo.png" width="300" height="auto" alt="Italian Trulli">';
+    echo '<img src="logo.png" width="300" height="auto">';
 
     echo '<br>
     <form action="index.php" method="post">
