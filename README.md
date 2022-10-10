@@ -7,7 +7,7 @@ This repo contains a PHP Race Condition POC that simulates a vulnerability seen 
 2. Run `git clone https://github.com/SeanRobertDH/PHP-Race-Condition-POC.git`.
 3. in the cloned directory with the `docker-compose.yml` file, run the command `docker-compose up`.
 4. The vulnerable web server is now running on `localhost:6969`.
-5. There should be '2 gift cards with $500 each'. Your goal is to increase the sum of the total value to be more than $1000.
+5. There should be '2 gift cards with $500 each'. Your goal is to increase the sum of their values to be more than $1000.
 
 # Resetting the container:
 1. Open a seperate terminal also in the directory with the `docker-compose.yml` file and run the command `docker-compose down -v`.
