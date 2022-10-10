@@ -1,5 +1,5 @@
 # PHP-Race-Condition-POC
-This repo contains a PHP Race Condition POC that simulates a Race Condition seen in Starbucks gift cards in 2015.
+This repo contains a PHP Race Condition POC that simulates a vulnerability seen in Starbucks gift cards in 2015.
 
 # Setup:
 **Note*** May not work on M1 Mac or other ARM-based OSes. If you find a solution, please feel free to suggest a commit!
