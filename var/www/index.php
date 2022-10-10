@@ -11,6 +11,8 @@ try {
 
     echo "<html><body>";
 
+    echo '<img src="logo.png" width="300" height="auto" alt="Italian Trulli">';
+
     echo '<br>
     <form action="index.php" method="post">
     Transfer from: <select name="from_card_id">
