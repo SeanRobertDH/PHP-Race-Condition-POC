@@ -9,9 +9,10 @@ This repo contains a PHP Race Condition POC that simulates a vulnerability seen 
 **Note*** May not work on M1 Mac or other ARM-based OSes. If you find a solution, please feel free to submit a PR!
 
 1. Run `git clone https://github.com/SeanRobertDH/PHP-Race-Condition-POC.git`.
-2. in the cloned directory with the `docker-compose.yml` file, run the command `docker-compose up`.
-3. The vulnerable web server is now running on `localhost:6969`.
-4. There should be '2 gift cards with $500 each'. Your goal is to increase the sum of their values to be more than $1000.
+2. Run Docker.
+3. in the cloned directory with the `docker-compose.yml` file, run the command `docker-compose up`.
+4. The vulnerable web server is now running on `localhost:6969`.
+5. There should be '2 gift cards with $500 each'. Your goal is to increase the sum of their values to be more than $1000.
 
 # Recommended Tools:
 - [Race The Web](https://github.com/TheHackerDev/race-the-web)
