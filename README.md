@@ -19,3 +19,6 @@ This repo contains a PHP Race Condition POC that simulates a vulnerability seen 
 
 # Resetting the container:
 1. Open a seperate terminal also in the directory with the `docker-compose.yml` file and run the command `docker-compose down -v`.
+
+# Another Race Condition Challenge:
+- https://portswigger.net/web-security/file-upload/lab-file-upload-web-shell-upload-via-race-condition
