@@ -8,8 +8,10 @@ services:
     image: sandbox_app
     container_name: app
     restart: unless-stopped
+    extra_hosts:
+      - host.docker.internal:host-gateway
     volumes:
-    - ./var/www:/var/www
+      - ./var/www:/var/www
 
   webserver:
     image: nginx:alpine
